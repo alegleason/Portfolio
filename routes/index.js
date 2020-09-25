@@ -6,7 +6,7 @@ router.get('/', (req, res) => {
 })
 
 router.get('/test', (req, res) => {
-    res.render('index')
+    res.render('test')
 })
 
 module.exports = router
